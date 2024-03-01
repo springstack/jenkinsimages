@@ -1,0 +1,13 @@
+Jenkins is a popular open-source automation server used for building, testing, and deploying software projects. It is written in Java and requires Java Development Kit (JDK) to run. There are several reasons why Jenkins needs Java JDK:
+
+Jenkins is Java-based: Jenkins itself is written in Java programming language. Therefore, to execute Jenkins server and its various plugins, Java Runtime Environment (JRE) is required. JDK includes JRE, but it also contains development tools like compilers and debuggers, which are necessary for building and running Java applications.
+
+Plugin System: Jenkins has a rich ecosystem of plugins that extend its functionality for various purposes such as version control systems, build tools integration, deployment, and reporting. Many of these plugins are also written in Java or rely on Java libraries. Therefore, JDK is required to compile and execute these plugins.
+
+Execution of Jenkins Pipeline: Jenkins Pipeline is a powerful feature that allows defining build processes as code using a domain-specific language (DSL). Pipelines can be written in Groovy, which is a scripting language for Java Virtual Machine (JVM). Groovy scripts require Java runtime to execute, thus JDK is needed.
+
+Platform Independence: Java programs are platform-independent, meaning they can run on any platform with a compatible Java Virtual Machine (JVM). By using Java, Jenkins can be deployed on various operating systems such as Windows, Linux, and macOS without significant changes.
+
+Community Support and Development: Java has a large and active community of developers and contributors. By choosing Java as its primary language, Jenkins can leverage the wealth of libraries, tools, and expertise available in the Java ecosystem.
+
+In summary, Jenkins requires Java JDK because it is written in Java, relies on Java libraries and plugins, and executes Jenkins Pipeline scripts using the Java Virtual Machine.
